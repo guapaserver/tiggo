@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'HelveticaNeueLTStdBold';
+    src: url('../../fontes/helvetica-bd/helveticaneueltstd-bd-webfont.eot');
+    src: url('../../fontes/helvetica-bd/helveticaneueltstd-bd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fontes/helvetica-bd/helveticaneueltstd-bd-webfont.woff') format('woff'),
+         url('../../fontes/helvetica-bd/helveticaneueltstd-bd-webfont.ttf') format('truetype'),
+         url('../../fontes/helvetica-bd/helveticaneueltstd-bd-webfont.svg#HelveticaNeueLTStdBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    line-height:normal;
+}
+
+/*Formatacao Pop Up*/
+#conteudo_popup
+{
+    float: left;
+    height: 258px;
+    margin-left: 25px;
+    margin-top: 145px;
+    width: 180px;
+}
+
+.conteudo_popup_interno
+{
+	display: block;
+	border: none;
+    min-height: 100px;
+    /*overflow: auto;*/
+    padding-left: 18px;
+    padding-top: 25px;
+    font-family: 'HelveticaNeueLTStdBold';
+    font-size: 13px;
+    color: #25130f;
+}
+
+.conteudo_popup_interno p
+{
+	font-size:11px;
+}
+
+#conteudo_popup a
+{
+    margin: 22px auto ;
+	display: block;
+	width: 135px;
+}
+
+#conteudo_popup img
+{
+    border:0 !important;
+	margin: 0;
+	padding: 0;
+}
